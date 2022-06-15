@@ -24,11 +24,11 @@ int main() {
     }
     void dequeue()
     {
-        for(int d=top1;d>=0;d--)
+        for(int d=top1;d>=1;d--)
             push2(pop1());
-        
+        // printf("top1 : %d",top1 );
         pop1();
-        
+        // printf("top1 : %d",top1 );
         for(int d = top2;d>=0;d--)
             {
                 push(s2[d]);
